@@ -11128,22 +11128,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="68.58" y="142.24" size="1.778" layer="97" font="vector" rot="MR180" align="center">Voltage Range: 3.3-12V</text>
-<text x="121.92" y="66.04" size="1.778" layer="97" align="center">Based on: http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/on-off-power-controller</text>
+<text x="121.92" y="60.96" size="1.778" layer="97" align="center">Based on: http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/on-off-power-controller</text>
 <text x="127" y="139.7" size="1.778" layer="97" align="center">Max Current: 4A</text>
 <text x="91.44" y="147.32" size="1.778" layer="97">JP2 Setting
 High: Off at power connect (default)
 Low: On at power connect</text>
-<text x="167.64" y="73.66" size="1.778" layer="97" align="center">MCU
+<text x="167.64" y="68.58" size="1.778" layer="97" align="center">MCU
 Sense/Control</text>
-<text x="127" y="58.42" size="1.778" layer="97" align="center">"Power Sense/Control" can be used to detect button press
+<text x="127" y="53.34" size="1.778" layer="97" align="center">"Power Sense/Control" can be used to detect button press
 and/or turn off system after aproximately 6.6s.</text>
-<text x="127" y="50.8" size="1.778" layer="97" align="center">Driving "Fast Off" low from a micro will
+<text x="127" y="45.72" size="1.778" layer="97" align="center">Driving "Fast Off" low from a micro will
 immediately turn off the system.</text>
 <wire x1="99.06" y1="144.78" x2="109.22" y2="127.762" width="0.2032" layer="97"/>
 </plain>
 <instances>
-<instance part="GND3" gate="1" x="175.26" y="91.44" smashed="yes">
-<attribute name="VALUE" x="175.26" y="91.186" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="162.56" y="91.44" smashed="yes">
+<attribute name="VALUE" x="162.56" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="203.2" y="45.72" smashed="yes"/>
 <instance part="H1" gate="G$1" x="238.76" y="30.48" smashed="yes"/>
@@ -11159,13 +11159,13 @@ immediately turn off the system.</text>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="H3" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
-<instance part="R2" gate="G$1" x="175.26" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="173.736" y="101.6" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="176.784" y="101.6" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R2" gate="G$1" x="162.56" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="161.036" y="101.6" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="164.084" y="101.6" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D1" gate="D1" x="175.26" y="114.3" smashed="yes">
-<attribute name="NAME" x="171.831" y="109.728" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="177.165" y="109.728" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="D1" x="162.56" y="114.3" smashed="yes">
+<attribute name="NAME" x="159.131" y="109.728" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="164.465" y="109.728" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="Q1" gate="G1" x="127" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="123.444" y="102.362" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -11213,8 +11213,8 @@ immediately turn off the system.</text>
 <attribute name="VALUE" x="58.674" y="110.236" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="63.5" y="101.092" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="GND1" gate="1" x="157.48" y="76.2" smashed="yes">
-<attribute name="VALUE" x="157.48" y="75.946" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="157.48" y="71.12" smashed="yes">
+<attribute name="VALUE" x="157.48" y="70.866" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J8" gate="G$1" x="68.58" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.738" y="127" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -11236,19 +11236,19 @@ immediately turn off the system.</text>
 <instance part="GND2" gate="1" x="76.2" y="99.06" smashed="yes">
 <attribute name="VALUE" x="76.2" y="98.806" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J7" gate="G$1" x="195.58" y="121.92" smashed="yes" rot="R180">
-<attribute name="VALUE" x="191.516" y="111.76" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="198.12" y="116.332" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J7" gate="G$1" x="182.88" y="121.92" smashed="yes" rot="R180">
+<attribute name="VALUE" x="178.816" y="111.76" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="185.42" y="116.332" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="182.88" y="114.3" smashed="yes">
-<attribute name="VALUE" x="182.88" y="114.046" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="170.18" y="114.3" smashed="yes">
+<attribute name="VALUE" x="170.18" y="114.046" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="175.26" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="172.72" y="121.92" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="177.8" y="121.92" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="JP1" gate="G$1" x="162.56" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="160.02" y="121.92" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="165.1" y="121.92" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="193.04" y="129.54" smashed="yes" rot="MR90">
-<attribute name="NAME" x="198.882" y="127" size="1.778" layer="95" font="vector" rot="MR90"/>
+<instance part="J2" gate="G$1" x="180.34" y="129.54" smashed="yes" rot="MR90">
+<attribute name="NAME" x="186.182" y="127" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
 <instance part="FD1" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="241.3" y="27.94" smashed="yes"/>
@@ -11265,24 +11265,24 @@ immediately turn off the system.</text>
 <instance part="GND5" gate="1" x="111.76" y="114.3" smashed="yes">
 <attribute name="VALUE" x="111.76" y="114.046" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J3" gate="J$1" x="167.64" y="83.82" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="170.18" y="76.454" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="170.18" y="89.408" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J3" gate="J$1" x="167.64" y="78.74" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="170.18" y="71.374" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="170.18" y="84.328" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="D2" gate="G$1" x="149.86" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.828" y="76.2" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="151.892" y="76.2" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D2" gate="G$1" x="149.86" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="147.828" y="71.12" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="151.892" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND6" gate="1" x="149.86" y="71.12" smashed="yes">
-<attribute name="VALUE" x="149.86" y="70.866" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="149.86" y="66.04" smashed="yes">
+<attribute name="VALUE" x="149.86" y="65.786" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C4" gate="G$1" x="134.62" y="116.84" smashed="yes">
 <attribute name="NAME" x="136.144" y="119.761" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="136.144" y="114.681" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U$15" gate="G$1" x="231.14" y="40.64" smashed="yes"/>
-<instance part="SUPPLY1" gate="G$1" x="185.42" y="134.62" smashed="yes">
-<attribute name="VALUE" x="185.42" y="137.414" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="172.72" y="134.62" smashed="yes">
+<attribute name="VALUE" x="172.72" y="137.414" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -11290,7 +11290,7 @@ immediately turn off the system.</text>
 <nets>
 <net name="GND" class="1">
 <segment>
-<wire x1="175.26" y1="93.98" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="93.98" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
@@ -11305,8 +11305,8 @@ immediately turn off the system.</text>
 <wire x1="83.82" y1="91.44" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="81.28" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="76.2" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="J3" gate="J$1" pin="1"/>
 </segment>
@@ -11328,13 +11328,13 @@ immediately turn off the system.</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="119.38" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="119.38" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="-"/>
-<wire x1="187.96" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="129.54" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
-<junction x="182.88" y="119.38"/>
+<wire x1="175.26" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<junction x="170.18" y="119.38"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -11344,12 +11344,12 @@ immediately turn off the system.</text>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="149.86" y1="73.66" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="68.58" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="175.26" y1="109.22" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="109.22" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="D1" gate="D1" pin="C"/>
 </segment>
@@ -11376,10 +11376,10 @@ immediately turn off the system.</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="134.62" y="101.6"/>
-<wire x1="134.62" y1="101.6" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="101.6" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J3" gate="J$1" pin="2"/>
-<label x="137.16" y="83.82" size="1.27" layer="95"/>
+<label x="137.16" y="78.74" size="1.27" layer="95"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -11389,17 +11389,17 @@ immediately turn off the system.</text>
 <wire x1="147.32" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="101.6" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="101.6" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <junction x="149.86" y="101.6"/>
-<junction x="149.86" y="86.36"/>
-<wire x1="149.86" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="86.36" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<junction x="149.86" y="81.28"/>
+<wire x1="149.86" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="J3" gate="J$1" pin="3"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="149.86" y1="86.36" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.27" layer="95"/>
+<wire x1="149.86" y1="81.28" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<label x="114.3" y="81.28" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11450,26 +11450,26 @@ immediately turn off the system.</text>
 <wire x1="149.86" y1="121.92" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <junction x="149.86" y="132.08"/>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="129.54" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<junction x="175.26" y="132.08"/>
+<wire x1="162.56" y1="129.54" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<junction x="162.56" y="132.08"/>
 <pinref part="J2" gate="G$1" pin="+"/>
-<wire x1="187.96" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="121.92" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
-<junction x="185.42" y="132.08"/>
+<wire x1="175.26" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="121.92" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
+<junction x="172.72" y="132.08"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="185.42" y1="134.62" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="134.62" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="D1" pin="A"/>
-<wire x1="175.26" y1="119.38" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="119.38" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_IN" class="1">

@@ -11130,7 +11130,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="68.58" y="142.24" size="1.778" layer="97" font="vector" rot="MR180" align="center">Voltage Range: 3.3-12V</text>
 <text x="121.92" y="66.04" size="1.778" layer="97" align="center">Based on: http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/on-off-power-controller</text>
 <text x="127" y="139.7" size="1.778" layer="97" align="center">Max Current: 4A</text>
-<text x="109.22" y="81.28" size="1.778" layer="97" align="center">Diode must have ~0.7V drop</text>
 <text x="91.44" y="147.32" size="1.778" layer="97">JP2 Setting
 High: Off at power connect (default)
 Low: On at power connect</text>

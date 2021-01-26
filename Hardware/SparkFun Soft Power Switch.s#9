@@ -10003,6 +10003,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="63.5" y="63.5" size="1.27" layer="97">Based on: http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/on-off-power-controller</text>
 <text x="129.54" y="144.78" size="1.778" layer="97" align="center">SIL2308-TP Max Current: 1A</text>
 <text x="109.22" y="86.36" size="1.778" layer="97" align="center">Diode must have ~0.7V drop</text>
+<text x="111.76" y="157.48" size="1.778" layer="97" align="center">JP2 Setting
+High: Off at power connect (default)
+Low: On at power connect</text>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="180.34" y="91.44" smashed="yes">
@@ -10522,6 +10525,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets

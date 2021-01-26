@@ -9742,6 +9742,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-5.08" y="0" radius="0.9906" width="0" layer="30"/>
 <circle x="5.08" y="0" radius="0.9906" width="0" layer="30"/>
 </package>
+<package name="PANASONIC_SMINI2-F5-B">
+<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
+<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
+<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
+</package>
+<package name="SOT23-3">
+<description>&lt;h3&gt;SOT23-3X&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Total Size: 3mm x 2.5mm&lt;/li&gt;
+&lt;li&gt;Landing Pad Size: .8mm x .9mm&lt;/li&gt;
+&lt;li&gt;Pitch: 2 (vertical) .95mm (horizontal)&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LABELED-NMOS">
@@ -9837,6 +9872,25 @@ Switches electrical signals</description>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+</symbol>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
 <vertex x="-1.27" y="1.27"/>
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
@@ -9941,6 +9995,87 @@ Switches electrical signals</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09176"/>
 <attribute name="VALUE" value="1A/50V/1.1V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE-ZENER" prefix="D">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+&lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MM3Z3V3T1G" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11284"/>
+<attribute name="VALUE" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMSZ5232BS" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12442"/>
+<attribute name="VALUE" value="5.6V"/>
+</technology>
+</technologies>
+</device>
+<device name="-DZ2J150M0L" package="PANASONIC_SMINI2-F5-B">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12989"/>
+<attribute name="VALUE" value="15V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BZT52C3V6S" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08199" constant="no"/>
+<attribute name="VALUE" value="3.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMBZ5233BLT1G" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14123"/>
+<attribute name="VALUE" value="6V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BZX84C15LT3G" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-15071" constant="no"/>
+<attribute name="VALUE" value="15V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10969,6 +11104,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-BAS16J" value="250mA/100V"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="1X03_NO_SILK"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
+<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11119,6 +11256,13 @@ Sense/Control</text>
 <attribute name="VALUE" x="162.56" y="81.534" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="162.56" y="94.488" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
+<instance part="D2" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.128" y="78.74" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="139.192" y="78.74" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="GND6" gate="1" x="137.16" y="73.66" smashed="yes">
+<attribute name="VALUE" x="137.16" y="73.406" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11176,6 +11320,11 @@ Sense/Control</text>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="111.76" y1="119.38" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="137.16" y1="76.2" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -11221,12 +11370,16 @@ Sense/Control</text>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <junction x="149.86" y="101.6"/>
-<wire x1="149.86" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
 <junction x="149.86" y="91.44"/>
+<wire x1="137.16" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="J3" gate="J$1" pin="3"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="137.16" y1="83.82" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<junction x="137.16" y="91.44"/>
 </segment>
 </net>
 <net name="N$15" class="0">
