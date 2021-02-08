@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -42,10 +42,10 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
@@ -4323,37 +4323,37 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C20" library="SparkFun-Capacitors" package="0603" value="10uF" x="12.7" y="12.7" smashed="yes" rot="R180">
+<element name="C3" library="SparkFun-Capacitors" package="0603" value="10uF" x="12.7" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.7" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-11015" x="25.4" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.7" y="13.208" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R22" library="SparkFun-Resistors" package="0603" value="100k" x="8.89" y="6.35" smashed="yes" rot="R90">
+<element name="R4" library="SparkFun-Resistors" package="0603" value="100k" x="8.89" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.128" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07828" x="3.81" y="-5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.398" y="6.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R24" library="SparkFun-Resistors" package="0603" value="300k" x="10.795" y="6.35" smashed="yes" rot="R270">
+<element name="R5" library="SparkFun-Resistors" package="0603" value="300k" x="10.795" y="6.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.557" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-10809" x="15.875" y="10.16" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="11.938" y="6.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C22" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="15.24" y="5.461" smashed="yes">
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="15.24" y="5.461" smashed="yes">
 <attribute name="NAME" x="15.24" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08604" x="10.16" y="-0.889" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="15.24" y="6.731" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C23" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="15.24" y="3.81" smashed="yes">
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="15.24" y="3.81" smashed="yes">
 <attribute name="NAME" x="15.24" y="4.572" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-13930" x="6.35" y="-6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="15.113" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-08604" x="6.35" y="-6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="15.113" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R26" library="SparkFun-Resistors" package="0603" value="100k" x="15.24" y="7.239" smashed="yes">
+<element name="R3" library="SparkFun-Resistors" package="0603" value="100k" x="15.24" y="7.239" smashed="yes">
 <attribute name="NAME" x="15.24" y="8.001" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07828" x="6.35" y="-2.921" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="15.367" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R31" library="SparkFun-Resistors" package="0603" value="10k" x="12.7" y="6.35" smashed="yes" rot="R90">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="12.7" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.938" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="26.67" y="-6.35" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.43" y="6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
@@ -4447,13 +4447,13 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J1" pad="2"/>
 <contactref element="J7" pad="2"/>
 <contactref element="J2" pad="1"/>
-<polygon width="0.1778" layer="1" isolate="0.1778">
+<polygon width="0.1778" layer="1" isolate="0.1778" rank="3">
 <vertex x="0" y="20.32"/>
 <vertex x="25.4" y="20.32"/>
 <vertex x="25.4" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<polygon width="0.1778" layer="16" isolate="0.1778">
+<polygon width="0.1778" layer="16" isolate="0.1778" rank="3">
 <vertex x="0" y="20.32"/>
 <vertex x="25.4" y="20.32"/>
 <vertex x="25.4" y="0"/>
@@ -4461,13 +4461,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </polygon>
 <via x="11.43" y="15.24" extent="1-16" drill="0.3048"/>
 <via x="14.097" y="10.16" extent="1-16" drill="0.3048"/>
-<wire x1="14.097" y1="10.16" x2="13.3825" y2="10.16" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="10.8425" x2="12.7" y2="11.36" width="0.3048" layer="1"/>
-<wire x1="13.3825" y1="10.16" x2="12.7" y2="10.8425" width="0.3048" layer="1"/>
+<wire x1="14.097" y1="10.16" x2="13.5095" y2="10.16" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="10.9695" x2="12.7" y2="11.36" width="0.8128" layer="1"/>
+<wire x1="13.5095" y1="10.16" x2="12.7" y2="10.9695" width="0.5588" layer="1"/>
 <via x="13.97" y="15.24" extent="1-16" drill="0.3048"/>
 <via x="5.08" y="15.24" extent="1-16" drill="0.3048"/>
 <contactref element="JP2" pad="1"/>
 <via x="17.272" y="6.35" extent="1-16" drill="0.3048"/>
+<via x="19.431" y="12.319" extent="1-16" drill="0.3048"/>
+<via x="17.145" y="12.319" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$6">
 <contactref element="R2" pad="2"/>
@@ -4480,17 +4482,22 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="MEAS" pad="3"/>
 <contactref element="MEAS" pad="1"/>
 <contactref element="J8" pad="2"/>
-<wire x1="7.002" y1="11.16" x2="2.81" y2="11.16" width="2.032" layer="1"/>
-<wire x1="2.81" y1="11.16" x2="2.54" y2="11.43" width="2.032" layer="1"/>
-<wire x1="7.002" y1="15.859" x2="7.002" y2="11.16" width="2.032" layer="1"/>
+<wire x1="2.556" y1="11.414" x2="2.54" y2="11.43" width="2.032" layer="1"/>
 <wire x1="7.62" y1="17.272" x2="7.62" y2="16.51" width="0.3048" layer="16"/>
-<wire x1="7.62" y1="16.51" x2="7.62" y2="16.477" width="0.5588" layer="1"/>
-<wire x1="7.62" y1="16.477" x2="7.002" y2="15.859" width="2.032" layer="1"/>
+<polygon width="0.1778" layer="1" isolate="0.1778" thermals="no">
+<vertex x="1.27" y="12.7"/>
+<vertex x="5.08" y="12.7"/>
+<vertex x="6.35" y="13.97"/>
+<vertex x="6.35" y="16.51"/>
+<vertex x="8.89" y="16.51"/>
+<vertex x="8.89" y="10.16"/>
+<vertex x="1.27" y="10.16"/>
+</polygon>
 </signal>
 <signal name="N$8">
 <contactref element="Q1" pad="G1"/>
-<contactref element="C20" pad="2"/>
-<contactref element="R24" pad="1"/>
+<contactref element="C3" pad="2"/>
+<contactref element="R5" pad="1"/>
 <wire x1="10.795" y1="7.2" x2="10.795" y2="9.017" width="0.3048" layer="1"/>
 <wire x1="10.541" y1="9.271" x2="10.541" y2="11.938" width="0.3048" layer="1"/>
 <wire x1="11.303" y1="12.7" x2="11.85" y2="12.7" width="0.3048" layer="1"/>
@@ -4501,8 +4508,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="10.795" y1="9.017" x2="10.541" y2="9.271" width="0.3048" layer="1"/>
 </signal>
 <signal name="POWER_SENSE/CTRL">
-<contactref element="R24" pad="2"/>
-<contactref element="R22" pad="1"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R4" pad="1"/>
 <contactref element="J6" pad="1"/>
 <contactref element="D3" pad="A"/>
 <wire x1="8.89" y1="5.5" x2="10.795" y2="5.5" width="0.3048" layer="1"/>
@@ -4511,11 +4518,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="8.629" y1="3.81" x2="8.89" y2="3.81" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="C23" pad="2"/>
-<contactref element="R26" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="R3" pad="1"/>
 <contactref element="Q1" pad="G2"/>
 <contactref element="Q1" pad="D1"/>
-<contactref element="C22" pad="1"/>
+<contactref element="C1" pad="1"/>
 <via x="17.2466" y="3.81" extent="1-16" drill="0.3048"/>
 <wire x1="17.2466" y1="3.81" x2="12.446" y2="3.81" width="0.3048" layer="16"/>
 <wire x1="12.446" y1="3.81" x2="11.43" y2="4.826" width="0.3048" layer="16"/>
@@ -4532,8 +4539,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="16.041" y1="3.81" x2="16.09" y2="3.81" width="0.3048" layer="1"/>
 </signal>
 <signal name="POWER_BTN">
-<contactref element="C23" pad="1"/>
-<contactref element="R31" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R1" pad="1"/>
 <contactref element="S1" pad="1"/>
 <contactref element="J1" pad="1"/>
 <wire x1="9.906" y1="18.415" x2="12.065" y2="18.415" width="0.3048" layer="1"/>
@@ -4553,8 +4560,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 <signal name="VCC">
 <contactref element="Q1" pad="D2"/>
-<contactref element="C20" pad="1"/>
-<contactref element="R22" pad="2"/>
+<contactref element="C3" pad="1"/>
+<contactref element="R4" pad="2"/>
 <contactref element="J7" pad="1"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="J2" pad="2"/>
@@ -4578,6 +4585,22 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="15.24" y1="9.525" x2="15.24" y2="10.668" width="0.5588" layer="1"/>
 <wire x1="15.24" y1="10.668" x2="14.548" y2="11.36" width="0.5588" layer="1"/>
 <wire x1="22.86" y1="8.89" x2="22.59" y2="9.16" width="2.032" layer="1"/>
+<polygon width="0.1778" layer="1" isolate="0.1778" thermals="no">
+<vertex x="13.335" y="11.811"/>
+<vertex x="15.494" y="11.811"/>
+<vertex x="15.875" y="11.43"/>
+<vertex x="15.875" y="10.541"/>
+<vertex x="16.129" y="10.287"/>
+<vertex x="24.003" y="10.287"/>
+<vertex x="24.13" y="10.16"/>
+<vertex x="24.13" y="7.62"/>
+<vertex x="15.748" y="7.62"/>
+<vertex x="14.478" y="8.89"/>
+<vertex x="14.478" y="10.541"/>
+<vertex x="14.224" y="10.795"/>
+<vertex x="14.097" y="10.922"/>
+<vertex x="13.335" y="10.922"/>
+</polygon>
 </signal>
 <signal name="N$2">
 <contactref element="JP1" pad="1"/>
@@ -4588,16 +4611,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 <signal name="V_IN" class="1">
 <contactref element="Q1" pad="S2"/>
-<contactref element="R26" pad="2"/>
-<contactref element="R31" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R1" pad="2"/>
 <contactref element="MEAS" pad="2"/>
 <contactref element="MEAS" pad="4"/>
 <wire x1="12.319" y1="16.637" x2="12.319" y2="9.906" width="0.5588" layer="16"/>
 <wire x1="12.319" y1="16.637" x2="9.906" y2="19.05" width="0.5588" layer="16"/>
 <wire x1="7.62" y1="18.288" x2="7.62" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="12.7" y1="8.96" x2="12.7" y2="9.468" width="0.5588" layer="1"/>
-<wire x1="12.7" y1="9.468" x2="12.319" y2="9.849" width="0.5588" layer="1"/>
-<wire x1="12.319" y1="9.906" x2="12.319" y2="9.849" width="0.5588" layer="1"/>
+<wire x1="12.7" y1="8.96" x2="12.7" y2="9.722" width="0.8128" layer="1"/>
+<wire x1="12.7" y1="9.722" x2="12.516" y2="9.906" width="0.8128" layer="1"/>
+<wire x1="12.319" y1="9.906" x2="12.516" y2="9.906" width="0.8128" layer="1"/>
 <via x="12.319" y="9.906" extent="1-16" drill="0.3048"/>
 <wire x1="9.906" y1="19.05" x2="7.62" y2="19.05" width="0.5588" layer="16"/>
 <contactref element="JP2" pad="3"/>
@@ -4611,9 +4634,19 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="17.399" y1="7.62" x2="17.399" y2="8.255" width="0.3048" layer="16"/>
 <wire x1="16.3576" y1="9.2964" x2="12.9286" y2="9.2964" width="0.3048" layer="16"/>
 <wire x1="17.399" y1="8.255" x2="16.3576" y2="9.2964" width="0.3048" layer="16"/>
+<polygon width="0.1778" layer="16" isolate="0.1778" thermals="no">
+<vertex x="7.62" y="20.32"/>
+<vertex x="13.97" y="20.32"/>
+<vertex x="13.97" y="8.89"/>
+<vertex x="11.43" y="8.89"/>
+<vertex x="11.43" y="16.51"/>
+<vertex x="10.16" y="17.78"/>
+<vertex x="8.89" y="17.78"/>
+<vertex x="7.62" y="17.78"/>
+</polygon>
 </signal>
 <signal name="N$1">
-<contactref element="C22" pad="2"/>
+<contactref element="C1" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <wire x1="17.272" y1="4.953" x2="17.272" y2="5.207" width="0.3048" layer="1"/>
 <wire x1="17.272" y1="5.207" x2="17.018" y2="5.461" width="0.3048" layer="1"/>
