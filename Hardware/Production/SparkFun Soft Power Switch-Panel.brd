@@ -32,34 +32,34 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5096,9 +5096,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="10.16" smashed="yes">
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="10.16" smashed="yes">
 <attribute name="NAME" x="12.7" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="6.35" smashed="yes" rot="R90">
@@ -5249,9 +5249,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="10.16" smashed="yes">
+<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="10.16" smashed="yes">
 <attribute name="NAME" x="38.608" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="6.35" smashed="yes" rot="R90">
@@ -5402,9 +5402,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q3" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="10.16" smashed="yes">
+<element name="Q3" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="10.16" smashed="yes">
 <attribute name="NAME" x="64.516" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="6.35" smashed="yes" rot="R90">
@@ -5555,9 +5555,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q4" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="10.16" smashed="yes">
+<element name="Q4" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="10.16" smashed="yes">
 <attribute name="NAME" x="90.424" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R17" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="6.35" smashed="yes" rot="R90">
@@ -5708,9 +5708,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q5" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="10.16" smashed="yes">
+<element name="Q5" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="10.16" smashed="yes">
 <attribute name="NAME" x="116.332" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="8.382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R22" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="6.35" smashed="yes" rot="R90">
@@ -5861,9 +5861,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="38.5826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q6" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="30.988" smashed="yes">
+<element name="Q6" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="30.988" smashed="yes">
 <attribute name="NAME" x="12.7" y="32.766" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R27" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="27.178" smashed="yes" rot="R90">
@@ -6014,9 +6014,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="38.5826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q7" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="30.988" smashed="yes">
+<element name="Q7" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="30.988" smashed="yes">
 <attribute name="NAME" x="38.608" y="32.766" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R32" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="27.178" smashed="yes" rot="R90">
@@ -6167,9 +6167,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="38.5826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q8" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="30.988" smashed="yes">
+<element name="Q8" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="30.988" smashed="yes">
 <attribute name="NAME" x="64.516" y="32.766" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R37" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="27.178" smashed="yes" rot="R90">
@@ -6320,9 +6320,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="38.5826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q9" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="30.988" smashed="yes">
+<element name="Q9" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="30.988" smashed="yes">
 <attribute name="NAME" x="90.424" y="32.766" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R42" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="27.178" smashed="yes" rot="R90">
@@ -6473,9 +6473,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="38.5826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q10" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="30.988" smashed="yes">
+<element name="Q10" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="30.988" smashed="yes">
 <attribute name="NAME" x="116.332" y="32.766" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="37.338" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R47" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="27.178" smashed="yes" rot="R90">
@@ -6626,9 +6626,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="59.436" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="59.4106" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q11" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="51.816" smashed="yes">
+<element name="Q11" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="51.816" smashed="yes">
 <attribute name="NAME" x="12.7" y="53.594" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R52" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="48.006" smashed="yes" rot="R90">
@@ -6779,9 +6779,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="59.436" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="59.4106" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q12" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="51.816" smashed="yes">
+<element name="Q12" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="51.816" smashed="yes">
 <attribute name="NAME" x="38.608" y="53.594" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R57" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="48.006" smashed="yes" rot="R90">
@@ -6932,9 +6932,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="59.436" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="59.4106" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q13" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="51.816" smashed="yes">
+<element name="Q13" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="51.816" smashed="yes">
 <attribute name="NAME" x="64.516" y="53.594" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R62" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="48.006" smashed="yes" rot="R90">
@@ -7085,9 +7085,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="59.436" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="59.4106" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q14" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="51.816" smashed="yes">
+<element name="Q14" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="51.816" smashed="yes">
 <attribute name="NAME" x="90.424" y="53.594" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R67" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="48.006" smashed="yes" rot="R90">
@@ -7238,9 +7238,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="59.436" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="59.4106" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q15" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="51.816" smashed="yes">
+<element name="Q15" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="51.816" smashed="yes">
 <attribute name="NAME" x="116.332" y="53.594" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="58.166" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R72" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="48.006" smashed="yes" rot="R90">
@@ -7391,9 +7391,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="80.264" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="80.2386" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q16" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="72.644" smashed="yes">
+<element name="Q16" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="72.644" smashed="yes">
 <attribute name="NAME" x="12.7" y="74.422" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R77" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="68.834" smashed="yes" rot="R90">
@@ -7544,9 +7544,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="80.264" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="80.2386" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q17" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="72.644" smashed="yes">
+<element name="Q17" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="72.644" smashed="yes">
 <attribute name="NAME" x="38.608" y="74.422" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R82" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="68.834" smashed="yes" rot="R90">
@@ -7697,9 +7697,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="80.264" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="80.2386" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q18" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="72.644" smashed="yes">
+<element name="Q18" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="72.644" smashed="yes">
 <attribute name="NAME" x="64.516" y="74.422" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R87" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="68.834" smashed="yes" rot="R90">
@@ -7850,9 +7850,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="80.264" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="80.2386" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q19" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="72.644" smashed="yes">
+<element name="Q19" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="72.644" smashed="yes">
 <attribute name="NAME" x="90.424" y="74.422" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R92" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="68.834" smashed="yes" rot="R90">
@@ -8003,9 +8003,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="80.264" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="80.2386" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q20" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="72.644" smashed="yes">
+<element name="Q20" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="72.644" smashed="yes">
 <attribute name="NAME" x="116.332" y="74.422" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R97" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="68.834" smashed="yes" rot="R90">
@@ -8156,9 +8156,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="101.092" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="101.0666" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q21" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="93.472" smashed="yes">
+<element name="Q21" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="93.472" smashed="yes">
 <attribute name="NAME" x="12.7" y="95.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="91.694" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R102" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="89.662" smashed="yes" rot="R90">
@@ -8309,9 +8309,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="101.092" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="101.0666" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q22" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="93.472" smashed="yes">
+<element name="Q22" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="93.472" smashed="yes">
 <attribute name="NAME" x="38.608" y="95.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="91.694" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R107" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="89.662" smashed="yes" rot="R90">
@@ -8462,9 +8462,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="101.092" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="101.0666" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q23" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="93.472" smashed="yes">
+<element name="Q23" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="93.472" smashed="yes">
 <attribute name="NAME" x="64.516" y="95.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="91.694" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R112" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="89.662" smashed="yes" rot="R90">
@@ -8615,9 +8615,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="101.092" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="101.0666" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q24" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="93.472" smashed="yes">
+<element name="Q24" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="93.472" smashed="yes">
 <attribute name="NAME" x="90.424" y="95.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="91.694" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R117" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="89.662" smashed="yes" rot="R90">
@@ -8768,9 +8768,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="101.092" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="101.0666" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q25" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="93.472" smashed="yes">
+<element name="Q25" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="93.472" smashed="yes">
 <attribute name="NAME" x="116.332" y="95.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="99.822" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="91.694" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R122" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="89.662" smashed="yes" rot="R90">
@@ -8921,9 +8921,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="21.1709" y="121.92" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="14.3891" y="121.8946" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q26" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="12.7" y="114.3" smashed="yes">
+<element name="Q26" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="114.3" smashed="yes">
 <attribute name="NAME" x="12.7" y="116.078" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="7.62" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="7.62" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="112.522" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R127" library="SparkFun-Resistors" package="0603" value="10k" x="8.89" y="110.49" smashed="yes" rot="R90">
@@ -9074,9 +9074,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="47.0789" y="121.92" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.2971" y="121.8946" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q27" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="38.608" y="114.3" smashed="yes">
+<element name="Q27" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="38.608" y="114.3" smashed="yes">
 <attribute name="NAME" x="38.608" y="116.078" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="33.528" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="33.528" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="38.608" y="112.522" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R132" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="110.49" smashed="yes" rot="R90">
@@ -9227,9 +9227,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="72.9869" y="121.92" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="66.2051" y="121.8946" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q28" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="64.516" y="114.3" smashed="yes">
+<element name="Q28" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="64.516" y="114.3" smashed="yes">
 <attribute name="NAME" x="64.516" y="116.078" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="59.436" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="59.436" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="64.516" y="112.522" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R137" library="SparkFun-Resistors" package="0603" value="10k" x="60.706" y="110.49" smashed="yes" rot="R90">
@@ -9380,9 +9380,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="98.8949" y="121.92" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="92.1131" y="121.8946" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q29" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="90.424" y="114.3" smashed="yes">
+<element name="Q29" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="90.424" y="114.3" smashed="yes">
 <attribute name="NAME" x="90.424" y="116.078" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="85.344" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="85.344" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="90.424" y="112.522" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R142" library="SparkFun-Resistors" package="0603" value="10k" x="86.614" y="110.49" smashed="yes" rot="R90">
@@ -9533,9 +9533,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="124.8029" y="121.92" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="118.0211" y="121.8946" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q30" library="SparkFun-DiscreteSemi" package="SOT26" value="DMC2700UDM" x="116.332" y="114.3" smashed="yes">
+<element name="Q30" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="116.332" y="114.3" smashed="yes">
 <attribute name="NAME" x="116.332" y="116.078" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-11993" x="111.252" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="TRANS-15717" x="111.252" y="120.65" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="116.332" y="112.522" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R147" library="SparkFun-Resistors" package="0603" value="10k" x="112.522" y="110.49" smashed="yes" rot="R90">
