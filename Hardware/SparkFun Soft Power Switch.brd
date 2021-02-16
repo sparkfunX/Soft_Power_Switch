@@ -4899,9 +4899,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="RES-07856" x="19.05" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="1k" x="18.034" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="Power" x="17.78" y="17.78" smashed="yes" rot="R270">
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="17.78" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.1709" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="14.3891" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-00819" x="17.78" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="RED" x="14.3891" y="17.7546" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT26" value="SIL2308-TP" x="12.7" y="10.16" smashed="yes">
 <attribute name="NAME" x="12.7" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
