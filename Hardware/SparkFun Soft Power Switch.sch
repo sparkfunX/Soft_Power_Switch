@@ -10800,6 +10800,7 @@ and/or turn off system after aproximately 6.6s.</text>
 <text x="127" y="45.72" size="1.778" layer="97" align="center">Driving "Fast Off" low from a micro will
 immediately turn off the system.</text>
 <wire x1="99.06" y1="144.78" x2="109.22" y2="127.762" width="0.2032" layer="97"/>
+<text x="137.16" y="133.604" size="1.778" layer="97">VGS Max 12V</text>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="162.56" y="91.44" smashed="yes">
