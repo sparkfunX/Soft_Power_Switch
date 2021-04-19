@@ -1,32 +1,31 @@
 /*
-  
-  This example assume the Fast Off pin is connected.
+  Control the power to a system using the SparkFun Soft Power Switch
+  By: Nathan Seidle
+  SparkFun Electronics
+  Date: February 2nd, 2021
+  License: MIT. See license file for more information but you can
+  basically do whatever you want with this code.
 
-  A simple tap of the power button will turn on the system.
+  This example assumes the Fast Off pin is connected.
 
-  If the power button is not being pressed (accidental tap) the system will
-  turn off after ~20ms.
-
-  If the system turns on and sees the power button held for 0.5s, it will begin
-  normal operation.
+  A simple tap of the power button will turn on the system. If the power button is not being pressed 
+  (accidental tap) the system will turn off after ~20ms. If the system turns on and sees the power 
+  button held for 0.5s, it will begin normal operation.
 
   During normal system operation, if user presses the power button for 2s, the system
-  will shut down after an additional ~1500ms. So total turn off time is 3.5s
-  
-  Power on tap to turn off: 2453, 3694, 2932, 3219
-  Software turnoff: 1386, 1135, 1440, 747, 1494, 1549
-  Override hold time: 5599, 5052, 5596, 5055
+  will shut down. This means the power button can also be used as a general 'select' button as
+  long as user doesn't hold button for more than 2s.
 
-  20-30nA at 70F
-  Support charging, 120mV drop @ 180mA
+  This example will output serial states. If you are powering your board over a USB connection then
+  the power button can't do its job. We did our testing by connecting the TX and GND pins of a RedBoard to 
+  an external USB to Serial adapter. That way the battery + Soft Power Switch could control power
+  to the board.  
 */
 
-//int POWER_BUTTON = 7;
-//int FAST_OFF = 8;
-
+//Hardware connections
+//Nearly any GPIO will do but avoid GPIOs with aut-enabled pullups, ie ESP32 pins 0, 5, 15.
 int POWER_BUTTON = 14;
 int FAST_OFF = 32;
-//int FAST_OFF = 13;//Temp testing
 
 int STAT_LED = 13;
 
@@ -40,7 +39,7 @@ int debounceDelay = 20;
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("Soft power switch testing");
+  Serial.println("Soft Power Switch example");
 
   pinMode(POWER_BUTTON, INPUT_PULLUP);
 
@@ -65,7 +64,7 @@ void setup()
   if (millis() - powerPressedStartTime < 500)
   {
     Serial.println("Power button tap. Returning to off state. Powering down.");
-    powerDown();
+    fastPowerDown();
   }
 
   Serial.println("User wants to turn system on!");
@@ -77,8 +76,8 @@ void setup()
   digitalWrite(STAT_LED, HIGH);
 
   Serial.println("Press 'r' to enter infinite loop to test power-down override");
-  Serial.println("Press 'z' to do a soft powerdown");
-  Serial.println("Press and hold power button for 2.5 to do a soft powerdown");
+  Serial.println("Press 'z' to do a slow powerdown");
+  Serial.println("Press and hold power button for 2s to do a fast powerdown");
 }
 
 void loop()
@@ -89,8 +88,8 @@ void loop()
 
     if (incoming == 'z')
     {
-      Serial.println("Powering down");
-      powerDown();
+      Serial.println("Slow power down");
+      slowPowerDown();
     }
     else if (incoming == 'r')
     {
@@ -110,7 +109,7 @@ void loop()
 
         if(digitalRead(POWER_BUTTON) == HIGH) break;
       }
-      Serial.println("User released button before forced powered could complete. Try again, but hold power button for 10s.");
+      Serial.println("User released button before forced powered could complete. Try again, but hold power button for 15s.");
     }
   }
 
@@ -133,7 +132,7 @@ void loop()
       if ((millis() - powerPressedStartTime) > 2000)
       {
         Serial.println("Time to power down!");
-        powerDown();
+        fastPowerDown();
       }
     }
   }
@@ -150,7 +149,8 @@ void loop()
   }
 }
 
-void powerDown()
+//Immediately power down
+void fastPowerDown()
 {
   //Indicate to user we are shutting down
   digitalWrite(STAT_LED, LOW);
@@ -160,6 +160,29 @@ void powerDown()
 
   pinMode(FAST_OFF, OUTPUT);
   digitalWrite(FAST_OFF, LOW);
+
+  powerPressedStartTime = millis();
+  Serial.print("Pulling power line low");
+  while (1)
+  {
+#ifdef PRINT_TIMER_OUTPUT
+    Serial.println(millis() - powerPressedStartTime);
+#endif
+    delay(1);
+  }
+}
+
+//This is the less common method for power down. It's basically
+//the same as holding the power button but a little faster.
+//This function is useful for seeing how long a system would take to power
+//down if the fast power down method was not used.
+void slowPowerDown()
+{
+  //Indicate to user we are shutting down
+  digitalWrite(STAT_LED, LOW);
+
+  pinMode(POWER_BUTTON, OUTPUT);
+  digitalWrite(POWER_BUTTON, LOW);
 
   powerPressedStartTime = millis();
   Serial.print("Pulling power line low");
